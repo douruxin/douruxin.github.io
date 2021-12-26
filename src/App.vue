@@ -1,15 +1,18 @@
 <template>
   <Main />
+  <!-- <AssociateSearch /> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Main from '@/components/Main.vue';
+// import AssociateSearch from '@/components/AssociateSearch.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     Main,
+    // AssociateSearch,
   },
 });
 </script>

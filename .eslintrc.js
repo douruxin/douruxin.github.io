@@ -21,7 +21,9 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-absolute-path': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
     'vue/no-multiple-template-root': 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-param-reassign': [
       'error',
       {
