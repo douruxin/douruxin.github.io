@@ -25,10 +25,10 @@ module.exports = {
     'vue/no-multiple-template-root': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-param-reassign': [
-      'error',
+      'warn',
       {
         props: true,
-        ignorePropertyModificationsFor: ['state', 'config'],
+        ignorePropertyModificationsFor: ['state', 'config', 'item', 'val', 'v', 'e', 'event'],
       },
     ],
   },
