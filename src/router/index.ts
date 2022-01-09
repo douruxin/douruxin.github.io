@@ -24,6 +24,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Test',
     component: Test,
   },
+  {
+    path: '/drag',
+    name: 'Drag',
+    component: () => import('@/views/Drag.vue'), // 懒加载 Drag 组件
+  },
 ];
 
 const router: Router = createRouter({

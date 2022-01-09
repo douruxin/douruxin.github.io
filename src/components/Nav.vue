@@ -47,6 +47,11 @@ export default defineComponent({
           isActive: false,
           path: '/test',
         },
+        {
+          name: 'Drag',
+          isActive: false,
+          path: '/drag',
+        },
       ],
 
       navClick(e: NavItem) {
